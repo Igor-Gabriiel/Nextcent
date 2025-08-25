@@ -194,9 +194,9 @@
 .clients {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 4rem 0;
+    padding: 0 9rem;
+    gap: 1rem;
 }
 
 .clients-title {
@@ -228,7 +228,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 4rem 0;
+    padding: 2.5rem;
 }
 
 .community-title {
@@ -238,6 +238,7 @@
     line-height: var(--line-height-topic);
     color: var(--text-color-title);
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .community-text {
@@ -247,6 +248,50 @@
     line-height: var(--line-height-body);
     color: var(--text-color-suport);
     margin-bottom: 1rem;
+}
+
+.membership-national-clubs {
+  display: flex;
+  width: 85rem;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.membership, .national, .clubs {
+    display: flex;
+    flex-direction: column;
+    width: 267px;
+    align-items: center;
+    padding: 2rem;
+    gap: 0.5rem;
+    text-align: center;
+}
+
+.membership p, .national p, .clubs p {
+  color: var(--text-color-suport);
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-caption);
+  width: 251px;
+} 
+  
+.pixelgrade {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button-learn {
+  background-color: var(--text-color-highlight);
+  color: var(--text-color-button);
+  display: flex;
+  padding: 0.875rem 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border: none;
+  border-radius: 0.25rem;
+  text-decoration: none;
 }
 
 .container-footer {
