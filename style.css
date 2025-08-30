@@ -478,6 +478,7 @@ p {
 .container-tesla {
   display: flex;
   padding: 2rem 5rem;
+  /*flex-wrap: wrap;*/
   justify-content: space-between;
   align-items: center;
   gap: 4.5rem;
@@ -499,6 +500,7 @@ p {
 .tesla-companies {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 3rem;
   padding-top: 2rem;
 }
@@ -766,16 +768,64 @@ footer ul {
     width: 100%;
   }
 
+  .nav-logo{
+    padding: 3rem;
+  }
+
   .navbar-menu,
   .navbar-buttons {
     display: none;
+    max-width: 1023px;
   }
 
   #menu-toggle {
     display: none;
-  }
+   }
 
   .mobile-menu {
     display: block;
+    margin-left: auto;
   }
+
+  .menu-icon {
+    margin-right: 1rem;
+  }
+
+  .hero-image {
+    display: none;
+  }
+
+  .community {
+    padding-bottom: 2rem;
+  }
+
+  .membership-national-clubs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .container-business {
+    gap: 1.5rem;
+  }
+
+  .person {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .footer {
+    padding: 4rem 1rem;
+    gap: 2.5rem;
+  }
+
+  .footer-social {
+    width: 35%;
+  }
+
+
+
 }
